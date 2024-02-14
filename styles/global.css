@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#title { 
+  font-family: sans-serif;
+  margin-left: 10%;
+  font-style: italic;
+}
+
+.video-container {
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap; /* Wrap videos if they overflow */
+  justify-content: space-around; /* Horizontally distribute videos */
+  align-items: center; /* Center videos vertically */
+}
+
+video { 
+  background-color: black;
+  margin: 20px;
+  width: 512px;
+  height: 512px;
+  border: 5px solid black;
+  padding: 3px;
+  border-radius: 10px;
+}
